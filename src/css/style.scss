@@ -1,0 +1,55 @@
+// * * * * * * * * * COLORS AND FONTS * * * * * * * * * * * * //
+
+$bg-lt: #F0F8FF;
+$bg-md-bl: #3E6B9A;
+$bg-md-gr: #505966;
+$bg-dk-bl: #25405c;
+$bg-dk-gr: #3D4756;
+
+$blue-accent: #00A2FF;
+$blue-accent-lt: #00C0FF;
+
+$gray: #8D9CB2;
+$gray-lt: #9AAEBB;
+
+
+// * * * * * * * * * GENERAL * * * * * * * * * * * * //
+
+@mixin min-width($screen) {
+    @media (min-width: $screen + 'px') {
+      @content;
+    }
+  }
+  @mixin max-width($screen) {
+    @media (max-width: $screen + 'px') {
+      @content;
+    }
+  }
+  @mixin lg-down {
+    @media (max-width: 1199px) {
+      @content;
+    }
+  }
+  @mixin md-down {
+    @media (max-width: 991px) {
+      @content;
+    }
+  }
+  @mixin sm-down {
+    @media (max-width: 767px) {
+      @content;
+    }
+  }
+  @mixin xs-down {
+    @media (max-width: 575px) {
+      @content;
+    }
+  }
+  
+  @mixin center-item {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
