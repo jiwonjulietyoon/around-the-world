@@ -1,6 +1,32 @@
 # around_the_world
 
+
+
+
+
+
+
+
+
+## Packages Added:
+
+###  Vuetify
+
+`vue add vuetify`
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+
 ## Project setup
+
 ```
 npm install
 ```
