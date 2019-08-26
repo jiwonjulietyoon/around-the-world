@@ -1,13 +1,14 @@
 <template>
-  <HelloWorld />
+  <div id="wrap">
+  </div>
 </template>
 
 <script>
-import HelloWorld from '../components/HelloWorld';
+
 
 export default {
   components: {
-    HelloWorld,
+
   },
 };
 </script>
