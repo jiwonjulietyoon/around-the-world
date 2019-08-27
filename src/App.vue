@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app id="Vapp">
     <router-view />
     <Footer />
   </v-app>
@@ -22,5 +22,6 @@ export default {
 <style lang="scss">
 @import "./css/reset.css";
 @import "@/css/style.scss";
+
 
 </style>

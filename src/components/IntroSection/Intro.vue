@@ -1,21 +1,22 @@
 <template>
-  <header>
+  <div>
 
-  </header>
+  </div>
 </template>
 
-
 <script>
+
 export default {
-  name: "Header"
-}
+  name: "Intro",
+  components: {
+
+  },
+};
 </script>
 
 
 <style lang="scss" scoped>
 @import "@/css/style.scss";
-header {
-  height: 100vh;
-}
+
 
 </style>
