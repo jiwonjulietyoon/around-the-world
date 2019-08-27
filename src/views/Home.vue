@@ -46,7 +46,7 @@ section {
   position: relative;
 }
 
-section.intro {
+section.intro, section.map {
   background-color: $bg-lt;
 }
 
