@@ -22,6 +22,4 @@ export default {
 <style lang="scss">
 @import "./css/reset.css";
 @import "@/css/style.scss";
-
-
 </style>

@@ -43,7 +43,11 @@ section {
   height: 100vh;
   overflow-y: hidden;
   overflow-x: auto;
+  position: relative;
 }
 
+section.intro {
+  background-color: $bg-lt;
+}
 
 </style>
