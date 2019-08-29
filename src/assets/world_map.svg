@@ -39,7 +39,7 @@ THE SOFTWARE.
    enable_background="new 0 0 2000 1001"
    height="1001px"
    pretty_print="False"
-   style="stroke-linejoin: round; stroke:#000; fill: none;"
+   style="stroke-linejoin: round; stroke:#00A2FF; fill: none;"
    version="1.1"
    viewBox="0 0 2000 1001"
    width="2000px"
